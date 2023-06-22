@@ -37,7 +37,7 @@
     # '';
   };
   services.mako.enable = true;
-  stylix.targets.mako.enable = true;
+  
 
     
 
@@ -62,8 +62,8 @@
   #Stylix Targets
 
   #programs.gnome.enable = true;
-  programs.rofi.enable = true;
-  programs.foot.enable = true;
+  #programs.rofi.enable = true;
+  #programs.foot.enable = true;
   # # FONTS
   
   
