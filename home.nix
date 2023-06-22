@@ -47,8 +47,7 @@
     events = [{ event = "before-sleep"; command = "/usr/bin/swaylock -F -l -f -c 000000";}];
     };
   programs.waybar = import ./waybar.nix;
-  #services.xserver = import ./gnome.nix;
-
+  
 
 
       
@@ -62,8 +61,8 @@
   #Stylix Targets
 
   #programs.gnome.enable = true;
-  #programs.rofi.enable = true;
-  #programs.foot.enable = true;
+  programs.rofi.enable = true;
+  programs.foot.enable = true;
   # # FONTS
   
   

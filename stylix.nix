@@ -8,7 +8,7 @@
   stylix.targets.gnome.enable = true;
   stylix.targets.mako.enable = true;
   stylix.image = ./.wallpaper;
-  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-hard.yaml";
+  stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/rose-pine-moon.yaml";
   stylix.fonts = {
     serif = {
       package = pkgs.dejavu_fonts;
